@@ -5,5 +5,5 @@ src/.DS_Store
 .langgraph_api/
 
 src/__pycache__/
-src/scientific_paper_agent/__pycache__/
-src/scientific_paper_agent/utils/__pycache__/
+src/backend/__pycache__/
+src/backend/utils/__pycache__/

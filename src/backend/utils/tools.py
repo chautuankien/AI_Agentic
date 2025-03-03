@@ -9,7 +9,7 @@ from langchain_core.tools import BaseTool, tool
 from typing import ClassVar
 from pydantic import BaseModel, Field
 
-from src.scientific_paper_agent.utils.state import SearchPapersInput
+from src.backend.utils.state import SearchPapersInput
 
 load_dotenv()
 

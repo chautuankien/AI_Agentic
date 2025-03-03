@@ -1,7 +1,7 @@
 {
     "dependencies": ["."],
     "graphs": {
-      "scientific_paper_agent": "./src/scientific_paper_agent/scientific_paper_agent.py:graph"
+      "scientific_paper_agent": "./src/backend/scientific_paper_agent.py:graph"
     },
     "env": "./.env"
   }

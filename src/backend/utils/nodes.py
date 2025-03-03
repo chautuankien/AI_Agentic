@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 from langchain_core.messages import SystemMessage, ToolMessage, AIMessage
 from langchain_deepseek import ChatDeepSeek
 
-from src.scientific_paper_agent.utils.state import AgentState, DecisionMakingOutput, JudgeOutput
-from src.scientific_paper_agent.utils.prompts import decision_making_prompt, planning_prompt, agent_prompt, judge_prompt
-from src.scientific_paper_agent.utils.tools import tools, tools_dict, format_tools_description
+from src.backend.utils.state import AgentState, DecisionMakingOutput, JudgeOutput
+from src.backend.utils.prompts import decision_making_prompt, planning_prompt, agent_prompt, judge_prompt
+from src.backend.utils.tools import tools, tools_dict, format_tools_description
 
 load_dotenv()
 

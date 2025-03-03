@@ -2,9 +2,9 @@ import asyncio
 from langgraph.graph import END, StateGraph
 from langgraph.graph.state import CompiledStateGraph
 
-from src.scientific_paper_agent.utils.state import AgentState
-from src.scientific_paper_agent.utils.nodes import *
-from src.scientific_paper_agent.utils.utils import print_stream
+from src.backend.utils.state import AgentState
+from src.backend.utils.nodes import *
+from src.backend.utils.utils import print_stream
 
 
 # Initialize state graph
